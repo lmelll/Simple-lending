@@ -1,0 +1,269 @@
+/*Код для копирования к вам в работу: начало*/
+
+body {
+	font-family: 'Open Sans', sans-serif; /*свое*/
+	color: #10560A; /*свое*/
+	font-size: 17px; /*свое*/
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.05em; /*свое*/
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 0.05em;/*свое*/ 
+	margin: 0;
+	padding: 0;
+}
+
+.section-title {
+	font-weight: 800;/*свое*/
+	font-size: 40px; /*свое*/
+	text-transform: uppercase; /*свое*/
+	line-height: 120.5%; /*свое*/
+	letter-spacing: 0.035em;
+}
+
+* {
+	box-sizing: border-box; 
+}
+
+.container {
+	max-width: 1200px; /*скорее всего, как у меня, но может быть свое*/
+	margin: 0 auto;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+/*Код для копирования к вам в работу: конец*/
+
+.header {
+	background: linear-gradient(109.04deg, rgba(4, 141, 34, 0.7) 3.39%, rgba(232, 220, 191, 0.92) 94.3%);
+}
+
+.nav {
+	background: #fff;
+	display: flex;
+}
+
+.logo {
+	margin-right: 361px;
+	margin-left: 165px;
+	margin-top: 14px;
+	margin-bottom: 13px;
+}
+
+
+.menu {
+	display: flex;
+	
+}
+
+
+.menu li a {
+	font-size: 18px;
+	color: #10560A;
+	padding: 43px 17px;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	display: block;
+	text-align: center;
+}
+
+.menu a:hover {
+	background: #10560A;
+	color: #F4EEE4;
+}
+
+.cart {
+	margin-left: 380px;
+	margin-top: 41px;
+	margin-bottom: 41px;
+
+}
+
+.header-wrapper {
+	display: flex;
+}
+
+.offer {
+	width: 383px;
+	margin-top: 259px;
+}
+.intro {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 450;
+	letter-spacing: 0.28em;
+	margin-bottom: 39px;
+}
+.big-title {
+	text-transform: uppercase;
+	font-size: 58px;
+	margin-bottom: 39px;
+	line-height: 85%;
+	color: #F4EEE4;
+	font-family: 'Prompt', sans-serif;
+}
+.rec {
+	font-size: 24px;
+	vertical-align: 24px;
+	
+}
+.big-title-regular {
+	font-weight: 400;
+	font-size: 48px;
+}
+.about-info {
+	margin-bottom: 39px;
+	line-height: 159.69%;
+}
+.btn {
+	text-decoration: none;
+	color: #10560A;
+	font-size: 17px;
+	border: 1px solid #10560A;
+	padding: 15px 27px;
+	transition: all 0.5s ease;
+	display: block;
+	text-align: center;
+	width: 195px;
+}
+
+.btn:hover {
+	background: #10560A;
+	color: #F4EEE4;
+}
+
+.mini_img {
+	margin-top: 98px; 
+}
+
+.house_mini {
+	margin-bottom: 33px;
+}
+
+.veranda_mini {
+	margin-bottom: 33px;
+}
+
+.about-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.background_about {
+	padding-top: 103px;
+	background: #F4EEE4;
+	padding-bottom: 103px;
+
+	
+}
+.about {
+	padding-top: 53px;
+}
+.gallery_2 {
+	margin-top: 30px;
+}
+.gallery_3 {
+	margin-top: 26px;
+	margin-left: 26px;
+}
+
+
+.about-text {
+	width: 1011px;
+}
+
+.about-text .section-title {
+	width: 522px;
+	margin-top: 60px;
+	margin-bottom: 38px;
+}
+
+.about-text p {
+	margin-bottom: 25px;
+	line-height: 155%;
+}
+
+.catalog {
+	padding-top: 121px;
+}
+
+.items-wrapper {
+	margin-top: 70px;
+	display: flex;
+}
+.item_1 {
+	margin-top: 13px;
+	text-align: center;
+	margin-right: 30px;
+}
+.item_2 {
+	text-align: center;
+	margin-right: 30px;
+}
+.item_3 {
+	margin-top: 12px;
+	text-align: center;
+	margin-right: 30px;
+}
+.item_1 h3 {
+	margin-top: 21px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.item_2 h3 {
+	margin-top: 10px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.item_3 h3 {
+	margin-top: 21px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+
+.purchase {
+	display: flex;
+
+}
+
+.item_1 .purchase {
+	margin-left: 65px;
+
+}
+
+.item_2 .purchase {
+	margin-left: 180px;
+
+}
+
+.item_3 .purchase {
+	margin-left: 70px;
+
+}
+
+.add {
+	margin-left: 5px;
+}
+
+.footer {
+	padding-top: 127px;
+	padding-bottom: 174px;
+}
+
+.footer-wrapper {
+	display: flex;
+	align-items: center
+}
+
+
+.footer-wrapper p {
+	font-size: 13px;
+	margin-left: 90px;
+}
